@@ -1,0 +1,201 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+    margin-top: 20px; /* Added margin-top for h2 */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 200px;
+}
+
+/* Button styles */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result styles */
+#result, #date, #student_info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #28a745;
+    color: rgb(12, 10, 10);
+}
+
+tr:hover {
+    background-color: white;
+}
+
+/* Additional styles */
+.input-table, .action-buttons {
+    margin-bottom: 20px;
+}
+
+#output_table {
+    margin-top: 20px;
+}
+
+tr, td {
+    font-size: 16px;
+}
+ #div1{
+                color: rgb(49, 18, 134);
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display:block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+
+            }
+            #div2{
+                color: rgb(240, 9, 9);
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display: block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+            }
+
+            #div3{
+                color: rgb(218, 85, 8);
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display: block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+
+
+
+            }
+            #div4{
+                color: rgb(125, 16, 228);
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display: block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+
+
+
+            }
+            #div5{
+                color: orangered;
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display: block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+
+            }
+            #div6{
+                color: rgb(22, 177, 86);
+                height: 200px;
+                width: 150px;
+                font-size: 100px;
+                display: block;
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-left: 80px;
+                margin-right: 80px;
+
+
+
+            }
+            .box:hover{
+                cursor: pointer;
+                scale: 1.4;
+                background-color: rgba(0, 0, 0, 0.5);
+                transition: all 0.55;
+            }

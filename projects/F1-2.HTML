@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/task3.css"> <!-- Link to your CSS file -->
+    <title>Manage Custom Object</title>
+</head>
+<body>
+<div class="student_info">
+    <h2>Manage Custom Object</h2>
+    <div class="input-table">
+        <table>
+            <tr>
+                <td><input id="student_name" placeholder="Enter the student name"></td>
+                <td><input id="major" placeholder="Enter the major"></td>
+            </tr>
+            <tr>
+                <td><input id="year" placeholder="Enter the year"></td>
+                <td><input id="campus" placeholder="Enter the campus"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="action-buttons">
+        <button onclick="insert_data()">Insert Data</button>
+        <button onclick="clear_input()">Clear Input</button>
+        <button onclick="show_data()">Show All Data</button>
+        <button onclick="clear_output()">Clear Output</button>
+    </div>
+
+    <table id="output_table">
+        <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Major</th>
+            <th>Year</th>
+            <th>Campus</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script src="../js/F1-2.js" defer></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
